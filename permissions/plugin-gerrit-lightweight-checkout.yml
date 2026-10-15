@@ -1,0 +1,13 @@
+---
+name: "gerrit-lightweight-checkout"
+github: &gh "jenkinsci/gerrit-lightweight-checkout-plugin"
+issues:
+  - github: *gh
+paths:
+  - "io/jenkins/plugins/gerrit-lightweight-checkout"
+developers:
+  - ldap: "slide_o_mix"
+    github: "slide"
+manageGitHubPermissions: true
+cd:
+  enabled: true
